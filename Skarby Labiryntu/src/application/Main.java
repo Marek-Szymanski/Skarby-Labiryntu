@@ -42,7 +42,7 @@ public class Main extends Application
     //akcje menu, do poprawy ilość i nazwy
     private List<Pair<String, Runnable>> menuData = Arrays.asList(
             new Pair<String, Runnable>("Single Player", () -> {
-            		//nowa scena
+            		
             }),
             new Pair<String, Runnable>("Multiplayer", () -> {}),
             new Pair<String, Runnable>("Game Options", () -> {}),
